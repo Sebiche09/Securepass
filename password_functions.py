@@ -39,7 +39,7 @@ def generate_password(length, uppercase, digits, special):
 
     # Enregistre le mot de passe dans l'historique
     save_password_to_history(generated_password)
-
+    return generated_password
 
 def save_password_to_history(password):
     """
